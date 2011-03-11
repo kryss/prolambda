@@ -1,12 +1,16 @@
-1299857721
+1299865686
 Application	/home/kryss/railsDev/prolambda/config/application.rb	  class Application 
 ApplicationController	/home/kryss/railsDev/prolambda/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/kryss/railsDev/prolambda/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/home/kryss/railsDev/prolambda/test/performance/browsing_test.rb	class BrowsingTest 
+DeviseCreateUsers	/home/kryss/railsDev/prolambda/db/migrate/20110311160544_devise_create_users.rb	class DeviseCreateUsers 
+HomeController	/home/kryss/railsDev/prolambda/app/controllers/home_controller.rb	class HomeController 
+HomeHelper	/home/kryss/railsDev/prolambda/app/helpers/home_helper.rb	module HomeHelper
 Prolambda	/home/kryss/railsDev/prolambda/config/application.rb	module Prolambda
 Str	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function Str(key, holder, stack)
 TestCase	/home/kryss/railsDev/prolambda/test/test_helper.rb	class ActiveSupport::TestCase
 Type	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function Type(o)
+User	/home/kryss/railsDev/prolambda/app/models/user.rb	class User 
 abs	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function abs()
 absolutize	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function absolutize(element)
 addMethods	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function addMethods(source)
@@ -43,6 +47,7 @@ detect	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function d
 dirCheck	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dispatch	/home/kryss/railsDev/prolambda/public/javascripts/effects.js	function dispatch(effect, eventName)
+down	/home/kryss/railsDev/prolambda/db/migrate/20110311160544_devise_create_users.rb	  def self.down
 each	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function each(iterator)
 each	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -81,6 +86,7 @@ inGroupsOf	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	functi
 include	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function include(object)
 include	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function include(pattern)
 include	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function include(value)
+index	/home/kryss/railsDev/prolambda/app/controllers/home_controller.rb	  def index
 index	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function index(value)
 indexOf	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function indexOf(item, i)
 initialize	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function initialize(object)
@@ -185,6 +191,7 @@ unescapeHTML	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	func
 unfilterJSON	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function unfilterJSON(filter)
 uniq	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function uniq(sorted)
 unset	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function unset(key)
+up	/home/kryss/railsDev/prolambda/db/migrate/20110311160544_devise_create_users.rb	  def self.up
 update	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function update(array, args)
 update	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function update(element, content)
 update	/home/kryss/railsDev/prolambda/public/javascripts/prototype.js	function update(object)
